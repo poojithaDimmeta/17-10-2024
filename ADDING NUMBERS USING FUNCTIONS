@@ -1,0 +1,14 @@
+#include<stdio.h>
+int addnum;
+int addnum(int n,int m)
+{
+     int sum=0;
+     sum=n+m;
+     return sum;
+}
+void main()
+{
+    int a=2;
+    int b=5;
+    addnum(a,b);
+}
